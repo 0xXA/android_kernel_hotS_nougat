@@ -15,7 +15,6 @@
 # Makefile for misc devices that really don't fit anywhere else.
 #
 
-
-obj-y += hx8392a_dsi_vdo_3lane.o
+obj-y += ili9881c_hd720_boe5p2_dj_5080.o
 
 ccflags-$(CONFIG_MTK_LCM) += -I$(srctree)/drivers/misc/mediatek/lcm/inc
