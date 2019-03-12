@@ -1,6 +1,3 @@
-#ifndef _YUVRAJ_FW_
-#define _YUVRAJ_FW_
-
 /*
  *  AUTHOR:	Yuvraj Saxena <ysaxenax@gmail.com>
  *  DATE:	04/03/2019
@@ -6333,4 +6330,3 @@ const unsigned char FirmwareImage[] = {
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
   0x00, 0x00, 0xff
 };
-#endif

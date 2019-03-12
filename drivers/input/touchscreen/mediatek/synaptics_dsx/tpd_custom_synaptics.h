@@ -1,4 +1,3 @@
-//tuwenzan@wind-mobi.com add this at 20161108 begin
 /* Copyright Statement:
  *
  * This software/firmware and related documentation ("MediaTek Software") are
@@ -40,11 +39,15 @@
 /* Pre-defined definition */
 #define TPD_TYPE_CAPACITIVE
 #define TPD_POWER_SOURCE	MT6331_POWER_LDO_VGP1         
-#define TPD_I2C_BUS			1   //twz modify
+#define TPD_I2C_BUS		4
 #define TPD_I2C_ADDR		0x20
 #define TPD_WAKEUP_TRIAL	60
 #define TPD_WAKEUP_DELAY	100
 
+#define DO_STARTUP_FW_UPDATE
+
+#define SENSOR_MAX_X        720
+#define SENSOR_MAX_Y        1280
 
 //#define TPD_HAVE_TREMBLE_ELIMINATION
 
@@ -69,4 +72,4 @@
 #endif
 
 #endif /* TOUCHPANEL_H__ */
-//tuwenzan@wind-mobi.com add this at 20161108 end
+
